@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .feature-img,
+    .sections-grid,
+    .menuu,
+    .img-cont,
+    .grid-six,
+    .twodiv {
+        grid-template-columns: 1fr;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    background:rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    position: fixed;
+    font-size: 35px;
+
+    z-index: 1000;
+    position: fixed;
+}
+
+.logo{
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+     gap:3rem;
+     padding: 10px;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+
+.bg{
+    background: url(./assets/images/app-link-background.svg) no-repeat center/cover;
+    min-height: 100vh;
+    color: white;
+   text-align: center;
+   align-content: center;
+    font-size: 60px;
+}
+.gii{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.ios{
+
+    width: 10vw;
+    height: 10vh;
+
+}
+
+.features h1{
+text-align: center;
+font-size: 50px;
+padding: 20px;
+}
+
+.feature-img{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.feature-img h3{
+    text-align: center;
+}
+
+.sec2{
+    background: url(./assets/images/banner-1.webp)no-repeat center/cover;
+    min-height: 100vh;
+    text-align: center;
+    align-content: center;
+    font-size: 70px;
+color: white;
+    
+}
+
+.sec3{
+    background: url(./assets/images/banner-2.webp) no-repeat center/cover;
+    min-height: 100vh;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+.sec4 h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sections-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.sections-grid div{
+    padding: 20px;
+}
+.sections-grid p{
+    font-size: 23px;
+}
+.sections-grid ul{
+    font-size: 23px;
+}
+
+input[type="text"]{
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    margin-left: 20px;
+}
+.footer-sec{
+    display: flex;
+
+}
+
+.two-icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.the-end{
+    background-color: hotpink;
+    color:white;
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.aboutbg{
+    background: url(./assets/images/banner.webp)  no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.headers h1{
+    color: white;
+    text-align: left;
+    padding-top: 100px;
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+.grid-six{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-left: 50px;
+}
+
+.grid-six div{
+    padding: 30px;
+    font-size: 25px;
+}
+
+.menuu{
+    background: url(./assets/images/banner\ \(1\).webp) no-repeat center/cover;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.menuu div{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+.videos{
+    position: relative;
+}
+
+.headings {
+text-align: center;font-size: 23px;
+}
+.headings div{
+    padding: 20px;
+}
+
+
+
+.hthree{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding:35px;
+}
+
+
+
+
+.img-cont{
+    display: grid;
+    grid-template-columns: repeat(5,0.5fr);
+    gap:1rem;
+    font-size: 20px;
+    text-align: center;
+    P{
+        gap: 1rem;
+    }
+}
+
+.last h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.last p{
+    text-align: center;
+}
+.form-bg{
+    background-color:lightgray;
+    padding-left: 100px;
+    margin-right: 50px;
+    padding-top: 30px;
+    width:25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    align-content: right;
+    justify-self: end;
+
+}
+
+.btnclr{
+    background-color: hotpink;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    
+}
+
+.twodiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.check-line{
+    display: flex;
+}
+
+.form-bg input{
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.footer-flex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.bye{
+    font-size: 23px;
+}
+
+.text{
+    color: white;
+    font-size: 40px;
+position: absolute;
+top: 50%;
+left: 40%;
+font-weight: 900;
+}
+
+.texts{
+  color: white;
+    font-size: 40px;
+position: absolute;
+top: 60%;
+left: 25%;
+font-weight: 900;  
+}
+
+.applyhere{
+    background-color: hotpink;
+    color: white;
+    font-size: 25px;
+position: absolute;
+top: 67%;
+left: 45%;
+font-weight: 900; 
+border-radius: 10px;
+}
+
+.watch a{
+    color: white;
+    font-size: 25px;
+position: absolute;
+top: 75%;
+left: 46%;
+font-weight: 900; 
+
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE FIXES */
+
+@media (max-width: 768px){
+
+    /* NAVBAR */
+    nav{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* HERO TEXT */
+    .bg{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .gii{
+        flex-direction: column;
+    }
+
+    .ios{
+        width: 120px;
+        height: auto;
+    }
+
+    /* FEATURES */
+    .feature-img{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* SECTION TEXT */
+    .sec2, .sec3{
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* FOOTER GRID */
+    .sections-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    input[type="text"]{
+        width: 80%;
+        margin: auto;
+    }
+
+    /* ABOUT PAGE */
+    .grid-six{
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+
+    /* MENU */
+    .menuu{
+        grid-template-columns: 1fr;
+    }
+
+    /* FRANCHISE */
+    .img-cont{
+        grid-template-columns: 1fr;
+    }
+
+    .twodiv{
+        grid-template-columns: 1fr;
+    }
+
+    .form-bg{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer-flex{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    /* VIDEO TEXT FIX */
+    .text, .texts, .applyhere, .watch a{
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.menu-btn{
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    background-color: lightgray;
+}
